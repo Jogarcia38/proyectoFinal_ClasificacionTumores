@@ -1,18 +1,33 @@
 # Proyecto Final Clasificacion de Tumores
 Proyecto de Machine Learning para la clasificación de tumores mediante modelos supervisados.
 
-# Problema que resolverá el proyecto
+## Problema que resolverá el proyecto
 
 Este proyecto busca desarrollar un modelo de Machine Learning capaz de clasificar tumores mamarios como benignos o malignos a partir de características obtenidas de muestras celulares. Para ello, se utiliza el conjunto de datos Breast Cancer Wisconsin, que contiene información sobre diferentes características de los tumores.
 
 La finalidad es apoyar el análisis de datos mediante técnicas de inteligencia artificial, permitiendo que el modelo identifique patrones y realice predicciones sobre nuevos registros. De esta manera, se puede evaluar qué tan bien un algoritmo de clasificación es capaz de diferenciar entre ambos tipos de tumores.
 
-# Selección y justificación del modelo
+## Selección y justificación del modelo
 
 Para este proyecto se seleccionó la Regresión Logística como modelo de Machine Learning, este modelo permite clasificar la información en dos categorías, por lo que resulta adecuado para identificar si un tumor es benigno o maligno a partir de las características presentes en el dataset Breast Cancer Wisconsin.
 
 Asimismo la Regresión Logística es un modelo sencillo, fácil de implementar y ampliamente utilizado en problemas de clasificación; además, permite obtener resultados de manera rápida y evaluar su desempeño mediante métricas como Accuracy, Precision, Recall y F1-Score.
 
+## Descripción del dataset
+
+### Conjunto de datos utilizado
+
+Para el desarrollo de este proyecto se utilizó el conjunto de datos Breast Cancer Wisconsin (Diagnostic), disponible en la biblioteca Scikit-learn, este dataset contiene información sobre características de muestras celulares obtenidas de tumores mamarios y se utiliza comúnmente en proyectos de aprendizaje automático para clasificación. El conjunto de datos está compuesto por 569 registros, de los cuales 357 corresponden a tumores benignos y 212 a tumores malignos.
+
+### Ejemplo de registros
+
+
+
+### Variables del dataset y objetivo del modelo
+
+El conjunto de datos Breast Cancer Wisconsin (Diagnostic) contiene 30 variables numéricas que describen diferentes características de las células analizadas en muestras de tejido mamario, algunas de las variables más importantes son el radio, la textura, el perímetro, el área, la suavidad, la compacidad, la concavidad y la simetría, estas características permiten describir la forma y estructura de las células presentes en cada muestra. En consecuencia, estas variables son utilizadas como variables predictoras, es decir, son los datos que el modelo analiza para realizar una predicción en donde la variable objetivo es el diagnóstico del tumor, que puede tener dos resultados: benigno o maligno.
+
+Asimismo el objetivo del modelo es aprender a identificar patrones en los datos para determinar si un tumor corresponde a la categoría de benigno o maligno. De esta manera, cuando reciba un nuevo registro con características similares, podrá realizar una predicción basándose en lo aprendido durante el entrenamiento.
 
 
 
