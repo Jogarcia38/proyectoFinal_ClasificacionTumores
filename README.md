@@ -1,4 +1,5 @@
-# Proyecto Final Clasificacion de Tumores
+# ![Proyecto Final Clasificacion de Tumores](https://capsule-render.vercel.app/api?type=transparent&color=0:FFFFFF,100:FFFFFF&height=65&section=header&text=Proyecto%20final%20de%20tumores&fontSize=28&fontColor=3D45F2&fontAlignY=50&animation=none)
+
 Proyecto de Machine Learning para la clasificación de tumores mediante modelos supervisados.
 
 ## Problema que resolverá el proyecto
@@ -48,7 +49,9 @@ imagen
 **F1-Score:** combina la precisión y la sensibilidad en una sola medida, el resultado de 95,12 % muestra un equilibrio adecuado entre ambas métricas.
 
 
-![Interpretación de las métricas](https://readme-typing-svg.demolab.com?font=Arial&size=26&duration=999999&pause=1000&color=0066CC&width=650&height=50&lines=Ejemplo+de+registros)
+
+![Ejemplo de registros](https://capsule-render.vercel.app/api?type=transparent&color=0:FFFFFF,100:FFFFFF&height=65&section=header&text=Ejemplo%20de%20registros&fontSize=28&fontColor=0066CC&fontAlignY=50&animation=none)
+
 
 
 
