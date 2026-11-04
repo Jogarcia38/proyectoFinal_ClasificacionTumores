@@ -33,17 +33,24 @@ Asimismo el objetivo del modelo es aprender a identificar patrones en los datos 
 
 Para evaluar el desempeño del modelo de Regresión Logística, se utilizaron métricas de clasificación que permiten medir qué tan bien identifica los tumores benignos y malignos, estas métricas se calcularon utilizando el conjunto de datos de prueba y los resultados obtenidos por el modelo.
 
+### Resultados obtenidos
+
 imagen
 
 ### Interpretación de las métricas
 
-Accuracy (Exactitud): indica el porcentaje total de predicciones correctas realizadas por el modelo, en este caso, el modelo clasificó correctamente el 96,49 % de los registros evaluados.
+**Accuracy:** indica el porcentaje total de predicciones correctas realizadas por el modelo, en este caso, el modelo clasificó correctamente el 96,49 % de los registros evaluados.
 
-Precision (Precisión): muestra qué tan acertadas fueron las predicciones de tumores malignos, el resultado obtenido fue del 97,50 %, lo que significa que la mayoría de los casos identificados como malignos realmente pertenecían a esa categoría.
+**Precision:** muestra qué tan acertadas fueron las predicciones de tumores malignos, el resultado obtenido fue del 97,50 %, lo que significa que la mayoría de los casos identificados como malignos realmente pertenecían a esa categoría.
 
-Recall (Sensibilidad): mide la capacidad del modelo para detectar los casos malignos reales, el valor de 92,86 % indica que logró identificar correctamente la mayoría de los tumores malignos presentes en los datos de prueba.
+**Recall:** mide la capacidad del modelo para detectar los casos malignos reales, el valor de 92,86 % indica que logró identificar correctamente la mayoría de los tumores malignos presentes en los datos de prueba.
 
-F1-Score: combina la precisión y la sensibilidad en una sola medida, el resultado de 95,12 % muestra un equilibrio adecuado entre ambas métricas.
+**F1-Score:** combina la precisión y la sensibilidad en una sola medida, el resultado de 95,12 % muestra un equilibrio adecuado entre ambas métricas.
+
+
+![Interpretación de las métricas](https://readme-typing-svg.demolab.com?font=Arial&size=26&duration=999999&pause=1000&color=0066CC&width=650&height=50&lines=Ejemplo+de+registros)
+
+
 
 
 
