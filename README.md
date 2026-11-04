@@ -29,5 +29,21 @@ El conjunto de datos Breast Cancer Wisconsin (Diagnostic) contiene 30 variables 
 
 Asimismo el objetivo del modelo es aprender a identificar patrones en los datos para determinar si un tumor corresponde a la categoría de benigno o maligno. De esta manera, cuando reciba un nuevo registro con características similares, podrá realizar una predicción basándose en lo aprendido durante el entrenamiento.
 
+### Aplicación de métricas de evaluación
+
+Para evaluar el desempeño del modelo de Regresión Logística, se utilizaron métricas de clasificación que permiten medir qué tan bien identifica los tumores benignos y malignos, estas métricas se calcularon utilizando el conjunto de datos de prueba y los resultados obtenidos por el modelo.
+
+imagen
+
+### Interpretación de las métricas
+
+Accuracy (Exactitud): indica el porcentaje total de predicciones correctas realizadas por el modelo, en este caso, el modelo clasificó correctamente el 96,49 % de los registros evaluados.
+
+Precision (Precisión): muestra qué tan acertadas fueron las predicciones de tumores malignos, el resultado obtenido fue del 97,50 %, lo que significa que la mayoría de los casos identificados como malignos realmente pertenecían a esa categoría.
+
+Recall (Sensibilidad): mide la capacidad del modelo para detectar los casos malignos reales, el valor de 92,86 % indica que logró identificar correctamente la mayoría de los tumores malignos presentes en los datos de prueba.
+
+F1-Score: combina la precisión y la sensibilidad en una sola medida, el resultado de 95,12 % muestra un equilibrio adecuado entre ambas métricas.
+
 
 
