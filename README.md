@@ -40,13 +40,13 @@ imagen
 
 ### Interpretación de las métricas
 
-**Accuracy:** indica el porcentaje total de predicciones correctas realizadas por el modelo, en este caso, el modelo clasificó correctamente el 96,49 % de los registros evaluados.
+- **Accuracy:** indica el porcentaje total de predicciones correctas realizadas por el modelo, en este caso, el modelo clasificó correctamente el 96,49 % de los registros evaluados.
 
-**Precision:** muestra qué tan acertadas fueron las predicciones de tumores malignos, el resultado obtenido fue del 97,50 %, lo que significa que la mayoría de los casos identificados como malignos realmente pertenecían a esa categoría.
+- **Precision:** muestra qué tan acertadas fueron las predicciones de tumores malignos, el resultado obtenido fue del 97,50 %, lo que significa que la mayoría de los casos identificados como malignos realmente pertenecían a esa categoría.
 
-**Recall:** mide la capacidad del modelo para detectar los casos malignos reales, el valor de 92,86 % indica que logró identificar correctamente la mayoría de los tumores malignos presentes en los datos de prueba.
+- **Recall:** mide la capacidad del modelo para detectar los casos malignos reales, el valor de 92,86 % indica que logró identificar correctamente la mayoría de los tumores malignos presentes en los datos de prueba.
 
-**F1-Score:** combina la precisión y la sensibilidad en una sola medida, el resultado de 95,12 % muestra un equilibrio adecuado entre ambas métricas.
+- **F1-Score:** combina la precisión y la sensibilidad en una sola medida, el resultado de 95,12 % muestra un equilibrio adecuado entre ambas métricas.
 
 ### Matriz de confusión
 
