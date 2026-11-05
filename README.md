@@ -48,9 +48,22 @@ imagen
 
 **F1-Score:** combina la precisión y la sensibilidad en una sola medida, el resultado de 95,12 % muestra un equilibrio adecuado entre ambas métricas.
 
+### Matriz de confusión
+
+Para complementar la evaluación del modelo de Regresión Logística, se utilizó una matriz de confusión que permite comparar las predicciones realizadas por el modelo con los valores reales del conjunto de prueba. Esta herramienta facilita la identificación de los aciertos y errores de clasificación.
+
+### Interpretación de la matriz
+
+- **71 verdaderos negativos (VN):** tumores benignos que fueron clasificados correctamente como benignos.
+
+- **39 verdaderos positivos (VP):** tumores malignos que fueron clasificados correctamente como malignos.
+
+- **1 falso positivo (FP):** tumor benigno que fue clasificado incorrectamente como maligno.
+
+- **3 falsos negativos (FN):** tumores malignos que fueron clasificados incorrectamente como benignos.
 
 
-![Ejemplo de registros](https://capsule-render.vercel.app/api?type=transparent&color=0:FFFFFF,100:FFFFFF&height=65&section=header&text=Ejemplo%20de%20registros&fontSize=28&fontColor=0066CC&fontAlignY=50&animation=none)
+
 
 
 
