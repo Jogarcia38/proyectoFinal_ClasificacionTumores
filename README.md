@@ -66,6 +66,8 @@ Para complementar la evaluación del modelo de Regresión Logística, se utiliz�
 
 La matriz de confusión permite identificar los aciertos y errores que comete el modelo al clasificar los tumores como benignos o malignos, en este proyecto se considera que un tumor maligno es el caso positivo.
 
+imagen
+
 En general, el modelo acertó en la mayoría de los casos, identificando correctamente 39 tumores malignos y 71 tumores benignos; sin embargo, cometió algunos errores: clasificó un tumor benigno como maligno y tres tumores malignos como benignos, estos últimos son los más importantes de analizar, ya que representan casos que el modelo no logró detectar correctamente. En total, el modelo realizó 110 clasificaciones correctas y 4 incorrectas sobre 114 registros evaluados, lo que demuestra un buen desempeño para los objetivos académicos del proyecto.
 
 
