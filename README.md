@@ -93,7 +93,21 @@ Es importante que los usuarios conozcan qué datos utiliza el modelo, cómo se g
 ### Uso responsable
 Este proyecto fue desarrollado con fines académicos y de aprendizaje, por lo tanto, sus resultados deben utilizarse únicamente para demostrar la aplicación de técnicas de Machine Learning y no como una herramienta para realizar diagnósticos médicos o sustituir la opinión de profesionales de la salud.
 
+## Análisis de posibles sesgos del modelo o del dataset
 
+El conjunto de datos utilizado tiene más casos de tumores benignos que malignos, ya que cuenta con 357 registros benignos y 212 malignos, esto puede hacer que el modelo aprenda mejor las características de los casos más frecuentes y tenga más dificultad para identificar algunos casos malignos.
+
+Asimismo, la información disponible no permite saber si los datos representan adecuadamente a todas las personas o poblaciones, por esta razón, no se puede asegurar que el modelo obtenga los mismos resultados en otros grupos o situaciones. Aunque el desempeño general fue bueno, es importante seguir evaluándolo con más datos para comprobar su confiabilidad.
+
+## Equidad, privacidad, impacto social y uso responsable de los datos
+
+- **Equidad:** El modelo fue entrenado con datos de tumores benignos y malignos para aprender a clasificarlos correctamente. Sin embargo, no se dispone de información suficiente para verificar si el modelo funciona de la misma manera en diferentes grupos de personas, por lo que sus resultados deben interpretarse con precaución.
+
+- **Privacidad:** El conjunto de datos utilizado no contiene nombres, documentos de identidad ni información personal de los pacientes. Aun así, es importante garantizar un manejo responsable de los datos y utilizar la información únicamente para fines académicos.
+
+- **Impacto social:** Este tipo de modelos puede apoyar el análisis de información y facilitar el aprendizaje sobre Machine Learning. Sin embargo, una clasificación incorrecta podría generar conclusiones equivocadas si se utiliza sin supervisión adecuada.
+
+- **Uso responsable de los datos:** El proyecto fue desarrollado con fines educativos y no debe utilizarse para realizar diagnósticos médicos reales. Los resultados obtenidos deben considerarse como una herramienta de apoyo al aprendizaje y no como una decisión definitiva sobre la salud de una persona.
 
 
 
