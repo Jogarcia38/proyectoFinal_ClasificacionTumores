@@ -109,6 +109,11 @@ Asimismo, la información disponible no permite saber si los datos representan a
 
 - **Uso responsable de los datos:** El proyecto fue desarrollado con fines educativos y no debe utilizarse para realizar diagnósticos médicos reales. Los resultados obtenidos deben considerarse como una herramienta de apoyo al aprendizaje y no como una decisión definitiva sobre la salud de una persona.
 
+## Reflexionar sobre la justicia y transparencia en la toma de decisiones.
+
+La justicia en un modelo de Machine Learning implica que las decisiones se basen en los datos analizados y no favorezcan o perjudiquen de manera injustificada a un grupo determinado, en este proyecto no fue posible verificar el comportamiento del modelo en diferentes poblaciones, por lo que los resultados deben interpretarse con precaución y considerando las limitaciones de los datos utilizados.
+
+La transparencia es fundamental para comprender cómo se obtienen las predicciones y cuáles son las limitaciones del modelo; aunque la Regresión Logística obtuvo buenos resultados en las pruebas realizadas, también presentó algunos errores de clasificación, lo que demuestra que sus predicciones no son perfectas. Por esta razón, las decisiones basadas en el modelo deben contar con supervisión humana y utilizarse únicamente con fines académicos, evitando que sustituyan el criterio de profesionales especializados.
 
 
 
