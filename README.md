@@ -115,6 +115,21 @@ La justicia en un modelo de Machine Learning implica que las decisiones se basen
 
 La transparencia es fundamental para comprender cómo se obtienen las predicciones y cuáles son las limitaciones del modelo; aunque la Regresión Logística obtuvo buenos resultados en las pruebas realizadas, también presentó algunos errores de clasificación, lo que demuestra que sus predicciones no son perfectas. Por esta razón, las decisiones basadas en el modelo deben contar con supervisión humana y utilizarse únicamente con fines académicos, evitando que sustituyan el criterio de profesionales especializados.
 
+## Conclusiones técnicas
+
+El modelo de Regresión Logística presentó un buen desempeño en la clasificación de tumores benignos y malignos utilizando el conjunto de datos Breast Cancer Wisconsin, durante la evaluación alcanzó una exactitud (Accuracy) del 96,49 %, lo que demuestra que logró clasificar correctamente la mayoría de los registros analizados. Además, obtuvo valores altos de precisión, sensibilidad y F1-Score, lo que indica un desempeño equilibrado en la identificación de ambas categorías.
+
+La matriz de confusión mostró que el modelo realizó 110 clasificaciones correctas de 114 registros evaluados, aunque se presentaron algunos errores, especialmente tres casos malignos clasificados como benignos. A pesar de esta limitación, los resultados fueron superiores a los obtenidos por el modelo de referencia, por lo que se concluye que la Regresión Logística fue una alternativa adecuada para cumplir los objetivos académicos del proyecto y demostrar la aplicación de técnicas básicas de Machine Learning.
+
+## Recomendaciones para mejorar
+
+Aunque el modelo obtuvo buenos resultados durante las pruebas, existen algunas acciones que podrían mejorar su desempeño y confiabilidad; una de ellas es evaluar el modelo con nuevos conjuntos de datos para comprobar si mantiene resultados similares en situaciones diferentes. Esto permitiría validar mejor su capacidad de clasificación y reducir el riesgo de obtener resultados adecuados únicamente para los datos utilizados en el proyecto.
+
+También se recomienda comparar la Regresión Logística con otros algoritmos de Machine Learning, como Árbol de Decisión o KNN, para determinar cuál ofrece mejores resultados. Además, sería conveniente buscar estrategias que permitan reducir los errores de clasificación, especialmente los casos malignos identificados como benignos, y continuar fortaleciendo el análisis ético y la validación de los resultados antes de considerar aplicaciones fuera del ámbito académico.
+
+
+
+
 
 
 
