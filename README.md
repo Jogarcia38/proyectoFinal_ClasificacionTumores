@@ -1,4 +1,4 @@
-# ![Proyecto Final Clasificacion de Tumores](https://capsule-render.vercel.app/api?type=transparent&color=0:FFFFFF,100:FFFFFF&height=65&section=header&text=Proyecto%20final%20de%20tumores&fontSize=28&fontColor=3D45F2&fontAlignY=50&animation=none)
+# ![Proyecto Final Clasificacion de Tumores](https://capsule-render.vercel.app/api?type=transparent&color=0:FFFFFF,100:FFFFFF&height=65&section=header&text=Proyecto%20final%20clasificación%20de%20tumores&fontSize=28&fontColor=3D45F2&fontAlignY=50&animation=none)
 
 Proyecto de Machine Learning para la clasificación de tumores mediante modelos supervisados.
 
