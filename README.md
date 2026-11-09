@@ -145,7 +145,17 @@ Aunque el modelo obtuvo buenos resultados durante las pruebas, existen algunas a
 
 También se recomienda comparar la Regresión Logística con otros algoritmos de Machine Learning, como Árbol de Decisión o KNN, para determinar cuál ofrece mejores resultados. Además, sería conveniente buscar estrategias que permitan reducir los errores de clasificación, especialmente los casos malignos identificados como benignos, y continuar fortaleciendo el análisis ético y la validación de los resultados antes de considerar aplicaciones fuera del ámbito académico.
 
-
+## Glosario
+- **Machine Learning:** rama de la inteligencia artificial que permite a los sistemas aprender a partir de datos y realizar predicciones.
+- **Dataset:** conjunto de datos utilizado para entrenar y evaluar un modelo.
+- **Regresión Logística:** algoritmo de clasificación utilizado para predecir una de dos posibles categorías.
+- **Variable predictora:** característica o dato que el modelo utiliza para realizar una predicción.
+- **Variable objetivo:** resultado que el modelo intenta predecir. En este proyecto corresponde al diagnóstico del tumor.
+- **Accuracy:** porcentaje de predicciones correctas realizadas por el modelo.
+- **Precision:** indica qué tan acertadas son las predicciones positivas realizadas por el modelo.
+- **Recall:** mide la capacidad del modelo para identificar correctamente los casos positivos.
+- **F1-Score:** métrica que combina precisión y sensibilidad en un solo valor.
+- **Matriz de confusión:** tabla que permite visualizar los aciertos y errores de clasificación del modelo.
 
 
 
