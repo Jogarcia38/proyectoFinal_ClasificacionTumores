@@ -8,7 +8,7 @@ Este proyecto busca desarrollar un modelo de Machine Learning capaz de clasifica
 
 La finalidad es apoyar el análisis de datos mediante técnicas de inteligencia artificial, permitiendo que el modelo identifique patrones y realice predicciones sobre nuevos registros. De esta manera, se puede evaluar qué tan bien un algoritmo de clasificación es capaz de diferenciar entre ambos tipos de tumores.
 
-![Evidencia 1](Imagenes/1.%20Tabla%20dataset.png)
+![Evidencia 1](Imagenes/1.%20Diagrama%20C4.png)
 
 ## Selección y justificación del modelo
 
