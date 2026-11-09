@@ -129,6 +129,11 @@ La justicia en un modelo de Machine Learning implica que las decisiones se basen
 
 La transparencia es fundamental para comprender cómo se obtienen las predicciones y cuáles son las limitaciones del modelo; aunque la Regresión Logística obtuvo buenos resultados en las pruebas realizadas, también presentó algunos errores de clasificación, lo que demuestra que sus predicciones no son perfectas. Por esta razón, las decisiones basadas en el modelo deben contar con supervisión humana y utilizarse únicamente con fines académicos, evitando que sustituyan el criterio de profesionales especializados.
 
+## Riesgos técnicos
+
+![Evidencia 5](Imagenes/5.%20Riesgos%20tecnicos%20.png)
+
+
 ## Conclusiones técnicas
 
 El modelo de Regresión Logística presentó un buen desempeño en la clasificación de tumores benignos y malignos utilizando el conjunto de datos Breast Cancer Wisconsin, durante la evaluación alcanzó una exactitud (Accuracy) del 96,49 %, lo que demuestra que logró clasificar correctamente la mayoría de los registros analizados. Además, obtuvo valores altos de precisión, sensibilidad y F1-Score, lo que indica un desempeño equilibrado en la identificación de ambas categorías.
