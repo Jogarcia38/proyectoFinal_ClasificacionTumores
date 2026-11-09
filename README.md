@@ -8,6 +8,8 @@ Este proyecto busca desarrollar un modelo de Machine Learning capaz de clasifica
 
 La finalidad es apoyar el análisis de datos mediante técnicas de inteligencia artificial, permitiendo que el modelo identifique patrones y realice predicciones sobre nuevos registros. De esta manera, se puede evaluar qué tan bien un algoritmo de clasificación es capaz de diferenciar entre ambos tipos de tumores.
 
+![Evidencia 1](Imagenes/1.%20Tabla%20dataset.png)
+
 ## Selección y justificación del modelo
 
 Para este proyecto se seleccionó la Regresión Logística como modelo de Machine Learning, este modelo permite clasificar la información en dos categorías, por lo que resulta adecuado para identificar si un tumor es benigno o maligno a partir de las características presentes en el dataset Breast Cancer Wisconsin.
@@ -22,7 +24,7 @@ Para el desarrollo de este proyecto se utilizó el conjunto de datos Breast Canc
 
 ### Ejemplo de registros
 
-![Evidencia 1](Imagenes/1.%20Tabla%20dataset.png)
+![Evidencia 2](Imagenes/1.%20Tabla%20dataset.png)
 
 ### Variables del dataset y objetivo del modelo
 
@@ -36,7 +38,7 @@ Para evaluar el desempeño del modelo de Regresión Logística, se utilizaron m�
 
 ### Resultados obtenidos
 
-![Evidencia 2](Imagenes/2.%20Tabla%20con%20los%20resultados%20.png)
+![Evidencia 3](Imagenes/2.%20Tabla%20con%20los%20resultados%20.png)
 
 ### Interpretación de las métricas
 
@@ -52,7 +54,9 @@ Para evaluar el desempeño del modelo de Regresión Logística, se utilizaron m�
 
 Para complementar la evaluación del modelo de Regresión Logística, se utilizó una matriz de confusión que permite comparar las predicciones realizadas por el modelo con los valores reales del conjunto de prueba. Esta herramienta facilita la identificación de los aciertos y errores de clasificación.
 
-![Evidencia 3](Imagenes/3.%20Matriz%20de%20confusion.png)
+<p align="left">
+  <img src="Imagenes/3.%20Matriz%20de%20confusion.png" width="500" alt="Matriz de confusión">
+</p>
 
 ### Interpretación de la matriz
 
