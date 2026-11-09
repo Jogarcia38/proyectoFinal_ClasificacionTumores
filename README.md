@@ -131,8 +131,7 @@ La transparencia es fundamental para comprender cómo se obtienen las prediccion
 
 ## Riesgos técnicos
 
-![Evidencia 5](Imagenes/5.%20Riesgos%20tecnicos%20.png)
-
+![Evidencia 5](Imagenes/5.%20Riesgos%20tecnicos.png)
 
 ## Conclusiones técnicas
 
