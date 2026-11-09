@@ -24,7 +24,7 @@ Para el desarrollo de este proyecto se utilizó el conjunto de datos Breast Canc
 
 ### Ejemplo de registros
 
-![Evidencia 2](Imagenes/1.%20Tabla%20dataset.png)
+![Evidencia 2](Imagenes/2.%20Tabla%20dataset.png)
 
 ### Variables del dataset y objetivo del modelo
 
@@ -32,13 +32,13 @@ El conjunto de datos Breast Cancer Wisconsin (Diagnostic) contiene 30 variables 
 
 Asimismo el objetivo del modelo es aprender a identificar patrones en los datos para determinar si un tumor corresponde a la categoría de benigno o maligno. De esta manera, cuando reciba un nuevo registro con características similares, podrá realizar una predicción basándose en lo aprendido durante el entrenamiento.
 
-### Aplicación de métricas de evaluación
+## Aplicación de métricas de evaluación
 
-Para evaluar el desempeño del modelo de Regresión Logística, se utilizaron métricas de clasificación que permiten medir qué tan bien identifica los tumores benignos y malignos, estas métricas se calcularon utilizando el conjunto de datos de prueba y los resultados obtenidos por el modelo.
+Para entrenar y evaluar el modelo se dividió el conjunto de datos en dos partes, el 80 % de los registros (455 muestras) se utilizó para entrenar el modelo y el 20 % restante (114 muestras) se reservó para realizar las pruebas. Esta estrategia permite evaluar el desempeño del modelo con datos que no fueron utilizados durante el entrenamiento.
 
 ### Resultados obtenidos
 
-![Evidencia 3](Imagenes/2.%20Tabla%20con%20los%20resultados%20.png)
+![Evidencia 3](Imagenes/3.%20Tabla%20con%20los%20resultados%20.png)
 
 ### Interpretación de las métricas
 
@@ -50,12 +50,20 @@ Para evaluar el desempeño del modelo de Regresión Logística, se utilizaron m�
 
 - **F1-Score:** combina la precisión y la sensibilidad en una sola medida, el resultado de 95,12 % muestra un equilibrio adecuado entre ambas métricas.
 
-### Matriz de confusión
+### Comparación con el modelo de referencia
+
+Como referencia se utilizó un modelo básico (Dummy Classifier), el cual realiza predicciones simples sin aprender patrones de los datos, al comparar los resultados, la Regresión Logística obtuvo métricas significativamente mejores, demostrando una mayor capacidad para clasificar correctamente los registros del dataset.
+
+### Criterios de aceptación del software
+
+El modelo se considera aceptable para los objetivos del proyecto porque alcanzó una exactitud superior al 90 %, identificó correctamente la mayoría de los tumores malignos y obtuvo resultados consistentes en las métricas de evaluación. Además, la matriz de confusión mostró un bajo número de errores de clasificación, lo que evidencia un comportamiento adecuado para fines académicos y de aprendizaje.
+
+## Matriz de confusión
 
 Para complementar la evaluación del modelo de Regresión Logística, se utilizó una matriz de confusión que permite comparar las predicciones realizadas por el modelo con los valores reales del conjunto de prueba. Esta herramienta facilita la identificación de los aciertos y errores de clasificación.
 
 <p align="left">
-  <img src="Imagenes/3.%20Matriz%20de%20confusion.png" width="500" alt="Matriz de confusión">
+  <img src="Imagenes/4.%20Matriz%20de%20confusion.png" width="500" alt="Matriz de confusión">
 </p>
 
 ### Interpretación de la matriz
