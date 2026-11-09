@@ -22,7 +22,7 @@ Para el desarrollo de este proyecto se utilizó el conjunto de datos Breast Canc
 
 ### Ejemplo de registros
 
-
+![Evidencia 1](Imagenes/1.%20Tabla%20dataset.png)
 
 ### Variables del dataset y objetivo del modelo
 
@@ -36,7 +36,7 @@ Para evaluar el desempeño del modelo de Regresión Logística, se utilizaron m�
 
 ### Resultados obtenidos
 
-imagen
+![Evidencia 2](Imagenes/2.%20Tabla%20con%20los%20resultados%20.png)
 
 ### Interpretación de las métricas
 
@@ -51,6 +51,8 @@ imagen
 ### Matriz de confusión
 
 Para complementar la evaluación del modelo de Regresión Logística, se utilizó una matriz de confusión que permite comparar las predicciones realizadas por el modelo con los valores reales del conjunto de prueba. Esta herramienta facilita la identificación de los aciertos y errores de clasificación.
+
+![Evidencia 3](Imagenes/3.%20Matriz%20de%20confusion.png)
 
 ### Interpretación de la matriz
 
